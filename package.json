@@ -1,6 +1,7 @@
 {
   "name": "boilerplate__typescript-express-vercel",
   "version": "1.0.0",
+  "type": "module",
   "description": "Typescript & ExpressJS, deploy on Vercel",
   "main": "src/app.ts",
   "scripts": {
@@ -63,8 +64,5 @@
   },
 "engines" : { 
     "node" : "16.13.0"
-  },
-  {
-  "type": "module"
-}
+  } 
 }
