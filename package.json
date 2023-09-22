@@ -4,7 +4,7 @@
   "description": "Typescript & ExpressJS, deploy on Vercel",
   "main": "src/app.ts",
   "scripts": {
-    "start": "npm install && node dist/app.js",
+    "start": "npm i && npm i express && node dist/app.js",
     "dev": "ts-node-dev --respawn src/app.ts",
     "build": "npm run clean && tsc && npm run copy-assets",
     "copy-assets": "ts-node tools/copyAssets",
@@ -24,7 +24,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-	 "@types/express": "^4.16.1",
+	"@types/express": "^4.16.1",
     "@types/socket.io": "^2.1.2",
     "@types/socket.io-client": "^1.4.32",
     "@types/uuid": "^9.0.4",
