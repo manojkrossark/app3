@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/edwintantawi/boilerplate__typescript-express-vercel.git"
   },
+	"engines" : { 
+    "node" : "16.13.0"
+  },
   "keywords": [],
   "author": "edwintantawi",
   "license": "ISC",
