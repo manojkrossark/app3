@@ -4,7 +4,7 @@
   "description": "Typescript & ExpressJS, deploy on Vercel",
   "main": "src/app.ts",
   "scripts": {
-    "start": "node build/app.js",
+    "start": "npm install && node dist/app.js",
     "dev": "ts-node-dev --respawn src/app.ts",
     "build": "npm run clean && tsc && npm run copy-assets",
     "copy-assets": "ts-node tools/copyAssets",
