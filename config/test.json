@@ -1,0 +1,6 @@
+{
+  "database": {
+    "name": "Krossarktech_test"
+  },
+  "secretAccessKey": "test-secret-access-key"
+}

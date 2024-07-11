@@ -1,0 +1,16 @@
+{
+  "appName": "Krossark Tech Hub",
+  "database": {
+    "user": "",
+    "password": ""
+  },
+  "secretAccessKey": "",
+  "firebaseGoogleAuth": {
+    "projectId": "",
+    "privateKeyId": "",
+    "privateKey": "",
+    "clientEmail": "",
+    "clientId": "",
+    "clientX509CertUrl": ""
+  }
+}
